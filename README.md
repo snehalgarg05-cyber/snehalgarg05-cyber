@@ -109,6 +109,18 @@
 
 <div align="center">
 
+### 🐍 Contribution Graph
+
+<img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+
+</div>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<div align="center">
+
 ### 📈 GitHub Analytics & Mission Control
 
 <br>
@@ -167,14 +179,6 @@
 <br>
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=snehalgarg05-cyber&bg_color=020010&color=8b5cf6&line=6366f1&point=a78bfa&area=true&hide_border=true&custom_title=Snehal's%20Contribution%20Galaxy&area_color=4c1d95)
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/output/github-snake-dark.svg" />
-</picture>
 
 </div>
 
