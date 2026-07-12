@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="350" alt="Coder Banner" />
+<img src="https://snehalgarg05-cyber.vercel.app/coder-window.svg" width="100%" height="350" alt="Coder Scene" />
 </div>
 
 <div align="center">
