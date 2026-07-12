@@ -71,8 +71,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
 </p>
 
-<a name="user-content-trophies" id="user-content-trophies"></a>
-
 <div align="center">
 
 ### 📊 Coding Stats
@@ -86,12 +84,7 @@
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://www.geeksforgeeks.org/profile/snehalgeh4e">
-        <br><br>
-        <img src="https://img.shields.io/badge/GeeksForGeeks-Profile-2f8d46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG Profile" />
-        <br><br>
-        <img src="https://img.shields.io/badge/Solved%20Problems-74%2B-brightgreen?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG Solved" />
-        <br><br>
-        <img src="https://img.shields.io/badge/Coding%20Score-193-success?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG Score" />
+        <img src="https://gfgstatscard.vercel.app/snehalgeh4e" alt="GFG Stats" />
       </a>
     </td>
   </tr>
@@ -122,30 +115,20 @@
 
 <img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/galaxy-analytics.svg" width="100%" alt="Galaxy Analytics" />
 
-<p align="center">
-  <a href="#user-content-contributions">
-    <img src="https://img.shields.io/badge/🪐_Purple_Planet-Contributions-8b5cf6?style=for-the-badge&labelColor=1a0b2e" alt="Go to Contributions" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="#user-content-trophies">
-    <img src="https://img.shields.io/badge/🪐_Blue_Planet-Trophies-3b82f6?style=for-the-badge&labelColor=0b1a2e" alt="Go to Trophies" />
-  </a>
-</p>
-
 <br>
 
 <table width="100%" border="0">
 <tr>
 <td width="50%" align="center">
 
-**🎯 2025 Mission Targets**
+**🎯 2026 Mission Targets**
 
 | Goal | Status |
 |------|--------|
 | 🤖 Build 5 AI Projects | 🔥 In Progress |
 | 🧠 Master LangChain & LangGraph | ⚡ Active |
-| 🚀 Deploy 3 HuggingFace Spaces | 📅 Q3 2025 |
-| 💡 500+ LeetCode Problems | 🎯 271/500 |
+| 🚀 Deploy 3 HuggingFace Spaces | 📅 Q3 2026 |
+| 💡 500+ DSA Problems | 🎯 271/500 |
 | 🌐 Contribute to Open Source AI | 🔜 Upcoming |
 
 </td>
@@ -176,14 +159,12 @@
 <img src="https://img.shields.io/badge/GFG-74%2B%20Problems-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/Target-AI%20Engineer%202026-ec4899?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Target-AI%20Engineer%202027-ec4899?style=for-the-badge&logoColor=white"/>
 </td>
 </tr>
 </table>
 
 <br>
-
-<a name="user-content-contributions" id="user-content-contributions"></a>
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=snehalgarg05-cyber&bg_color=020010&color=8b5cf6&line=6366f1&point=a78bfa&area=true&hide_border=true&custom_title=Snehal's%20Contribution%20Galaxy&area_color=4c1d95)
 
