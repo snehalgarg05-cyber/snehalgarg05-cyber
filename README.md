@@ -204,9 +204,6 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" width="100%" alt="Footer Banner" />
-
-<br>
-<i><small>Thanks for visiting — go build something intelligent 🤖🚀</small></i>
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/thanks-for-visiting.svg" width="100%" alt="Thanks for Visiting" />
 
 </div>
