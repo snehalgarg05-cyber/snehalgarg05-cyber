@@ -3,8 +3,6 @@
 </div>
 
 <div align="center">
-  <h1>👩‍💻 Snehal Garg</h1>
-  <h3>AI Engineer | ML Builder | Problem Solver</h3>
   <i>"The question of whether a computer can think is no more interesting than the question of whether a submarine can swim."</i>
   <br>
   <b>— Edsger W. Dijkstra</b>
