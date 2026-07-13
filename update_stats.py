@@ -1,24 +1,18 @@
 """
 Auto-updates LeetCode and GFG solve counts in README.md.
-Runs via GitHub Actions daily. Patches two badge URLs and the
-Mission Targets table row in-place so nothing else changes.
+Runs via GitHub Actions daily.
 """
 
 import re
 import requests
 
-# ── CONFIG ────────────────────────────────────────────────────────────────────
 LEETCODE_USERNAME = "Snehal_Garg"
 GFG_USERNAME      = "snehalgeh4e"
 README_PATH       = "README.md"
-# ─────────────────────────────────────────────────────────────────────────────
 
 
 def fetch_leetcode_solved(username: str) -> int | None:
-    """
-    Hits LeetCode's public GraphQL endpoint — no auth needed.
-    Returns total problems solved or None on failure.
-    """
+    """Uses LeetCode's official public GraphQL API — no auth needed."""
     url = "https://leetcode.com/graphql"
     query = """
     query getUserProfile($username: String!) {
@@ -36,47 +30,114 @@ def fetch_leetcode_solved(username: str) -> int | None:
         resp = requests.post(
             url,
             json={"query": query, "variables": {"username": username}},
-            headers={"Content-Type": "application/json", "Referer": "https://leetcode.com"},
+            headers={
+                "Content-Type": "application/json",
+                "Referer": "https://leetcode.com",
+                "User-Agent": "Mozilla/5.0"
+            },
             timeout=15,
         )
         resp.raise_for_status()
         data = resp.json()
         stats = data["data"]["matchedUser"]["submitStats"]["acSubmissionNum"]
-        # first entry is "All" — the total
         for entry in stats:
             if entry["difficulty"] == "All":
                 return entry["count"]
     except Exception as e:
-        print(f"[LeetCode] Error: {e}")
+        print(f"[LeetCode GraphQL] Error: {e}")
     return None
 
 
 def fetch_gfg_solved(username: str) -> int | None:
     """
-    Hits the unofficial GFG profile API.
-    Returns total problems solved or None on failure.
+    Tries multiple GFG APIs in order, sums difficulty counts as fallback.
     """
-    url = f"https://geeks-for-geeks-api.vercel.app/{username}"
+
+    # ── API 1: geeks-for-geeks-stats ──────────────────────────────────────────
     try:
+        url = f"https://geeks-for-geeks-stats-api.vercel.app/?raw=Y&userName={username}"
         resp = requests.get(url, timeout=15)
         resp.raise_for_status()
         data = resp.json()
-        # field is 'totalProblemsSolved' in this API
-        return int(data.get("totalProblemsSolved", 0))
+        print(f"[GFG API 1] raw response: {data}")
+        # This API returns keys: School, Basic, Easy, Medium, Hard
+        total = sum([
+            int(data.get("School", 0) or 0),
+            int(data.get("Basic",  0) or 0),
+            int(data.get("Easy",   0) or 0),
+            int(data.get("Medium", 0) or 0),
+            int(data.get("Hard",   0) or 0),
+        ])
+        if total > 0:
+            print(f"[GFG API 1] total = {total}")
+            return total
     except Exception as e:
-        print(f"[GFG] Error: {e}")
+        print(f"[GFG API 1] Error: {e}")
 
-    # fallback: try gfgstatscard API
+    # ── API 2: gfgstatscard ───────────────────────────────────────────────────
     try:
         url2 = f"https://gfgstatscard.vercel.app/api/{username}"
         resp = requests.get(url2, timeout=15)
         resp.raise_for_status()
         data = resp.json()
-        return int(data.get("totalProblemsSolved", 0))
-    except Exception as e2:
-        print(f"[GFG fallback] Error: {e2}")
+        print(f"[GFG API 2] raw response: {data}")
+        val = data.get("totalProblemsSolved") or data.get("total") or 0
+        if int(val) > 0:
+            return int(val)
+    except Exception as e:
+        print(f"[GFG API 2] Error: {e}")
+
+    # ── API 3: geeks-for-geeks-api ────────────────────────────────────────────
+    try:
+        url3 = f"https://geeks-for-geeks-api.vercel.app/{username}"
+        resp = requests.get(url3, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        print(f"[GFG API 3] raw response: {data}")
+        val = data.get("totalProblemsSolved") or data.get("total") or 0
+        if int(val) > 0:
+            return int(val)
+        # Try summing if totalProblemsSolved not present
+        total = sum([
+            int(data.get("School", 0) or 0),
+            int(data.get("Basic",  0) or 0),
+            int(data.get("Easy",   0) or 0),
+            int(data.get("Medium", 0) or 0),
+            int(data.get("Hard",   0) or 0),
+        ])
+        if total > 0:
+            return total
+    except Exception as e:
+        print(f"[GFG API 3] Error: {e}")
+
+    # ── API 4: scrape profile page ────────────────────────────────────────────
+    try:
+        url4 = f"https://auth.geeksforgeeks.org/user/{username}/practice/"
+        resp = requests.get(url4, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        text = resp.text
+        # Look for "Problems Solved" count in page HTML
+        match = re.search(r'"totalProblemsSolved"\s*:\s*(\d+)', text)
+        if match:
+            return int(match.group(1))
+        # Alternate pattern
+        match2 = re.search(r'(\d+)\s*</span>\s*<[^>]+>Problems Solved', text)
+        if match2:
+            return int(match2.group(1))
+    except Exception as e:
+        print(f"[GFG scrape] Error: {e}")
 
     return None
+
+
+def read_current_value(pattern: str) -> int:
+    """Reads current badge number from README as fallback."""
+    try:
+        with open(README_PATH, "r") as f:
+            txt = f.read()
+        m = re.search(pattern, txt)
+        return int(m.group(1)) if m else 0
+    except Exception:
+        return 0
 
 
 def patch_readme(lc: int, gfg: int) -> None:
@@ -85,34 +146,27 @@ def patch_readme(lc: int, gfg: int) -> None:
 
     total = lc + gfg
 
-    # ── 1. LeetCode badge ─────────────────────────────────────────────────────
-    # Matches: /badge/LeetCode-NNN%20Solved-
+    # 1. LeetCode badge
     content = re.sub(
         r"(img\.shields\.io/badge/LeetCode-)\d+(%20Solved-)",
         rf"\g<1>{lc}\2",
         content,
     )
-
-    # ── 2. GFG badge ──────────────────────────────────────────────────────────
-    # Matches: /badge/GFG-NNN%20Solved-
+    # 2. GFG badge
     content = re.sub(
         r"(img\.shields\.io/badge/GFG-)\d+(%20Solved-)",
         rf"\g<1>{gfg}\2",
         content,
     )
-
-    # ── 3. Mission Targets table row ──────────────────────────────────────────
-    # Matches: 🎯 NNN/500
+    # 3. Mission Targets table
     content = re.sub(
         r"(🎯\s*)\d+(/500)",
         rf"\g<1>{total}\2",
         content,
     )
-
-    # ── 4. About Me bullet ────────────────────────────────────────────────────
-    # Matches: Solved: NNN LeetCode problems & NNN+ GFG problems
+    # 4. About Me bullet — handles both & and &amp;
     content = re.sub(
-        r"(Solved:</b>\s*)\d+( LeetCode problems &amp; |\s*LeetCode problems &\s*)\d+(\+? GFG problems)",
+        r"(Solved:</b>\s*)\d+(\s*LeetCode problems\s*(?:&amp;|&)\s*)\d+(\+?\s*GFG problems)",
         rf"\g<1>{lc}\g<2>{gfg}\3",
         content,
     )
@@ -124,27 +178,22 @@ def patch_readme(lc: int, gfg: int) -> None:
 
 
 if __name__ == "__main__":
+    print("=" * 50)
     print("Fetching LeetCode stats...")
     lc_count = fetch_leetcode_solved(LEETCODE_USERNAME)
-    print(f"  → {lc_count}")
+    print(f"  LeetCode result: {lc_count}")
 
     print("Fetching GFG stats...")
     gfg_count = fetch_gfg_solved(GFG_USERNAME)
-    print(f"  → {gfg_count}")
+    print(f"  GFG result: {gfg_count}")
 
     if lc_count is None:
         print("⚠️  LeetCode fetch failed — keeping existing value")
-        # Read current value from README so we don't wipe it
-        with open(README_PATH, "r") as f:
-            txt = f.read()
-        m = re.search(r"badge/LeetCode-(\d+)%20Solved", txt)
-        lc_count = int(m.group(1)) if m else 0
+        lc_count = read_current_value(r"badge/LeetCode-(\d+)%20Solved")
 
     if gfg_count is None:
         print("⚠️  GFG fetch failed — keeping existing value")
-        with open(README_PATH, "r") as f:
-            txt = f.read()
-        m = re.search(r"badge/GFG-(\d+)%20Solved", txt)
-        gfg_count = int(m.group(1)) if m else 0
+        gfg_count = read_current_value(r"badge/GFG-(\d+)%20Solved")
 
+    print(f"Final values → LeetCode: {lc_count}, GFG: {gfg_count}")
     patch_readme(lc_count, gfg_count)
