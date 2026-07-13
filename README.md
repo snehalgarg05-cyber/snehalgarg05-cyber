@@ -29,7 +29,7 @@
 
 </div>
 
-<table width="100%" border="0"><tr><td width="60%" valign="top"><a href="https://github.com/snehalgarg05-cyber"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=22&pause=1000&color=00E5FF&vCenter=true&width=550&lines=AI+Engineer+in+the+Making;LLM+%26+RAG+Systems+Builder;Agentic+AI+Explorer;NLP+%26+Deep+Learning+Enthusiast;Turning+Data+into+Intelligence" alt="Typing SVG" /></a><br><br><p align="left"><a href="https://www.linkedin.com/in/snehal-garg-6abb73305/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-D12C85?style=flat&logo=linkedin&logoColor=white" alt="linkedin" height="25"/></a>&nbsp;<a href="mailto:snehalgarg05@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D12C85?style=flat&logo=gmail&logoColor=white" alt="gmail" height="25"/></a>&nbsp;<a href="https://huggingface.co/" target="_blank"><img src="https://img.shields.io/badge/-HuggingFace-D12C85?style=flat&logo=huggingface&logoColor=white" alt="huggingface" height="25"/></a>&nbsp;<a href="#" target="_blank"><img src="https://img.shields.io/badge/-Resume-D12C85?style=flat&logo=google-drive&logoColor=white" alt="resume" height="25"/></a></p><br>• 🎓 <b>B.Tech CSE @ VIT Bhopal University (Class of 2027)</b><br>• 🤖 Building with LLMs, RAG pipelines & Agentic AI Systems<br>• 🧠 <b>Currently Exploring:</b> LangChain, LangGraph, CrewAI & Vector DBs<br>• 🌱 <b>Mastering:</b> NLP, Transformers, MLOps & AI Deployment<br>• 🏆 <b>Solved:</b> 272 LeetCode problems & 74+ GFG problems<br>• 🤝 Open to AI/ML collabs, research projects & hackathons<br>• 🎵 <b>Beyond Code:</b> Music, Sports, Gaming & Reading keep me sane<br>• 🧠 <i>Fun Fact: My models train faster when I believe in them!</i></td><td width="40%" align="center" valign="middle"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFubnc0Mnl1MWpwODY5MnF3YjEwazZyYzY5a242Mm90aHZodzZ0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" width="100%" alt="Developer Coding GIF" /></td></tr></table>
+<table width="100%" border="0"><tr><td width="60%" valign="top"><a href="https://github.com/snehalgarg05-cyber"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=22&pause=1000&color=00E5FF&vCenter=true&width=550&lines=AI+Engineer+in+the+Making;LLM+%26+RAG+Systems+Builder;Agentic+AI+Explorer;NLP+%26+Deep+Learning+Enthusiast;Turning+Data+into+Intelligence" alt="Typing SVG" /></a><br><br><p align="left"><a href="https://www.linkedin.com/in/snehal-garg-6abb73305/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-D12C85?style=flat&logo=linkedin&logoColor=white" alt="linkedin" height="25"/></a>&nbsp;<a href="mailto:snehalgarg05@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D12C85?style=flat&logo=gmail&logoColor=white" alt="gmail" height="25"/></a>&nbsp;<a href="https://huggingface.co/" target="_blank"><img src="https://img.shields.io/badge/-HuggingFace-D12C85?style=flat&logo=huggingface&logoColor=white" alt="huggingface" height="25"/></a>&nbsp;<a href="#" target="_blank"><img src="https://img.shields.io/badge/-Resume-D12C85?style=flat&logo=google-drive&logoColor=white" alt="resume" height="25"/></a></p><br>• 🎓 <b>B.Tech CSE @ VIT Bhopal University (Class of 2027)</b><br>• 🤖 Building with LLMs, RAG pipelines & Agentic AI Systems<br>• 🧠 <b>Currently Exploring:</b> LangChain, LangGraph, CrewAI & Vector DBs<br>• 🌱 <b>Mastering:</b> NLP, Transformers, MLOps & AI Deployment<br>• 🏆 <b>Solved:</b> 272 LeetCode problems & 0+ GFG problems<br>• 🤝 Open to AI/ML collabs, research projects & hackathons<br>• 🎵 <b>Beyond Code:</b> Music, Sports, Gaming & Reading keep me sane<br>• 🧠 <i>Fun Fact: My models train faster when I believe in them!</i></td><td width="40%" align="center" valign="middle"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFubnc0Mnl1MWpwODY5MnF3YjEwazZyYzY5a242Mm90aHZodzZ0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" width="100%" alt="Developer Coding GIF" /></td></tr></table>
 
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
@@ -172,7 +172,7 @@
 | 🤖 Build 5 AI Projects | 🔥 In Progress |
 | 🧠 Master LangChain & LangGraph | ⚡ Active |
 | 🚀 Deploy 3 HuggingFace Spaces | 📅 Q3 2026 |
-| 💡 500+ DSA Problems | 🎯 346/500 |
+| 💡 500+ DSA Problems | 🎯 272/500 |
 | 🌐 Contribute to Open Source AI | 🔜 Upcoming |
 
 </td>
@@ -203,7 +203,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://www.geeksforgeeks.org/profile/snehalgeh4e">
-  <img src="https://img.shields.io/badge/GFG-74%20Solved-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 74 Solved"/>
+  <img src="https://img.shields.io/badge/GFG-0%20Solved-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 74 Solved"/>
 </a>
 </td>
 <td align="center" width="33%">
