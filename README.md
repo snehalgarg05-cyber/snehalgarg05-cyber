@@ -196,19 +196,30 @@
 
 <table width="100%">
 <tr>
+
+<!-- GitHub Live Contributions Streak Card -->
 <td align="center" width="33%">
 <a href="https://github.com/snehalgarg05-cyber">
   <img src="https://streak-stats.demolab.com?user=snehalgarg05-cyber&theme=tokyonight-duo&hide_border=true&border_radius=6&background=020010&ring=8b5cf6&fire=ec4899&currStreakLabel=00E5FF&sideLabels=6366f1&sideNums=a78bfa&currStreakNum=ec4899&dates=6366f1&stroke=8b5cf6&font=Fira%20Code&type=png" alt="GitHub Contributions" width="100%"/>
 </a>
 </td>
+
+<!-- LeetCode Live Rank + GFG Live Coding Score -->
 <td align="center" width="33%">
+<a href="https://leetcode.com/u/Snehal_Garg/">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fleetcode-stats-api.vercel.app%2FSnehal_Garg&query=%24.ranking&style=for-the-badge&logo=leetcode&label=LEETCODE%20RANK&color=f59e0b&labelColor=000000&prefix=%23" alt="LeetCode Live Rank"/>
+</a>
+<br><br>
 <a href="https://www.geeksforgeeks.org/profile/snehalgeh4e">
-  <img src="https://img.shields.io/badge/GFG-Current%20%26%20Max%20Streak-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG Streak"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgfgstatscard.vercel.app%2Fapi%2Fsnehalgeh4e&query=%24.codingScore&style=for-the-badge&logo=geeksforgeeks&label=GFG%20CODING%20SCORE&color=00ff88&labelColor=000000" alt="GFG Live Coding Score"/>
 </a>
 </td>
+
+<!-- Target -->
 <td align="center" width="33%">
 <img src="https://img.shields.io/badge/Target-AI%20Engineer%202027-ec4899?style=for-the-badge&logoColor=white"/>
 </td>
+
 </tr>
 </table>
 
