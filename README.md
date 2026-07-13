@@ -2,11 +2,24 @@
 <img src="https://snehalgarg05-cyber.vercel.app/coder-window.svg" width="100%" height="350" alt="Coder Scene" />
 </div>
 
+<br>
+<br>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<br>
+
 <div align="center">
-  <i>"The question of whether a computer can think is no more interesting than the question of whether a submarine can swim."</i>
-  <br>
-  <b>— Edsger W. Dijkstra</b>
+  <img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/quote-galaxy.svg" width="100%" alt="Quote Galaxy" />
 </div>
+
+<br>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
 
 <br>
 
