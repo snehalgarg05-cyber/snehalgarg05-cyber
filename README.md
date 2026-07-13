@@ -197,13 +197,13 @@
 <table width="100%">
 <tr>
 <td align="center" width="33%">
-<a href="https://leetcode.com/u/Snehal_Garg/">
-  <img src="https://img.shields.io/badge/LeetCode-277%20Solved-8b5cf6?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode 277 Solved"/>
+<a href="https://github.com/snehalgarg05-cyber">
+  <img src="https://streak-stats.demolab.com?user=snehalgarg05-cyber&theme=tokyonight-duo&hide_border=true&border_radius=6&background=020010&ring=8b5cf6&fire=ec4899&currStreakLabel=00E5FF&sideLabels=6366f1&sideNums=a78bfa&currStreakNum=ec4899&dates=6366f1&stroke=8b5cf6&font=Fira%20Code&type=png" alt="GitHub Contributions" width="100%"/>
 </a>
 </td>
 <td align="center" width="33%">
 <a href="https://www.geeksforgeeks.org/profile/snehalgeh4e">
-  <img src="https://img.shields.io/badge/GFG-76%20Solved-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 76 Solved"/>
+  <img src="https://img.shields.io/badge/GFG-Current%20%26%20Max%20Streak-6366f1?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG Streak"/>
 </a>
 </td>
 <td align="center" width="33%">
