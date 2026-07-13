@@ -204,14 +204,14 @@
 </a>
 </td>
 
-<!-- LeetCode Live Rank + GFG Live Coding Score -->
+<!-- LeetCode Live Rank + GFG Live Coding Score (FIXED) -->
 <td align="center" width="33%">
 <a href="https://leetcode.com/u/Snehal_Garg/">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fleetcode-stats-api.vercel.app%2FSnehal_Garg&query=%24.ranking&style=for-the-badge&logo=leetcode&label=LEETCODE%20RANK&color=f59e0b&labelColor=000000&prefix=%23" alt="LeetCode Live Rank"/>
 </a>
 <br><br>
 <a href="https://www.geeksforgeeks.org/profile/snehalgeh4e">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgfgstatscard.vercel.app%2Fapi%2Fsnehalgeh4e&query=%24.codingScore&style=for-the-badge&logo=geeksforgeeks&label=GFG%20CODING%20SCORE&color=00ff88&labelColor=000000" alt="GFG Live Coding Score"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgeeks-for-geeks-stats-api.vercel.app%2F%3FuserName%3Dsnehalgeh4e&query=%24.info.codingScore&style=for-the-badge&logo=geeksforgeeks&label=GFG%20CODING%20SCORE&color=00ff88&labelColor=000000" alt="GFG Live Coding Score"/>
 </a>
 </td>
 
