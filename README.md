@@ -105,6 +105,59 @@
 
 <div align="center">
 
+### 🚀 Featured Projects
+
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/multi-agent-galaxy.svg" width="100%" alt="Multi-Agent AI News Summarizer Pipeline"/>
+</div>
+
+<br>
+
+<table width="100%" border="0">
+<tr>
+<td width="60%" valign="top">
+
+**[📰 Multi-Agent AI News Summarizer](https://github.com/snehalgarg05-cyber/multi_agent_news_summarizer)**
+
+A production-grade multi-agent system that automates what a news editor does — fetch, categorize, summarize, and brief — using 4 specialized AI agents orchestrated with LangGraph.
+
+**What makes it interesting:**
+- 🔍 **Fetcher Agent** — NewsAPI with query expansion + data cleaning
+- 🗂️ **Categorizer Agent** — Batch LLM call, 10 articles in 1 API call (10x cheaper)
+- ✍️ **Summarizer Agent** — Abstractive summarization per category
+- 🎨 **Formatter Agent** — Executive briefing + full markdown digest
+- ⚡ **AgentState TypedDict** — Type-safe shared memory across all agents
+- 🔀 **Conditional Edge** — Auto error routing via LangGraph
+
+</td>
+<td width="40%" align="center" valign="top">
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-onrender.com-00E5FF?style=for-the-badge&labelColor=020010)](https://multi-agent-news-summarizer.onrender.com/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Code-8b5cf6?style=for-the-badge&logo=github&labelColor=020010)](https://github.com/snehalgarg05-cyber/multi_agent_news_summarizer)
+
+<br>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+![NewsAPI](https://img.shields.io/badge/NewsAPI-0078D4?style=flat-square&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<div align="center">
+
 ### 📊 Coding Stats
 
 <table width="100%">
@@ -197,14 +250,12 @@
 <table width="100%">
 <tr>
 
-<!-- GitHub Live Contributions Streak Card -->
 <td align="center" width="33%">
 <a href="https://github.com/snehalgarg05-cyber">
   <img src="https://streak-stats.demolab.com?user=snehalgarg05-cyber&theme=tokyonight-duo&hide_border=true&border_radius=6&background=020010&ring=8b5cf6&fire=ec4899&currStreakLabel=00E5FF&sideLabels=6366f1&sideNums=a78bfa&currStreakNum=ec4899&dates=6366f1&stroke=8b5cf6&font=Fira%20Code&type=png" alt="GitHub Contributions" width="100%"/>
 </a>
 </td>
 
-<!-- LeetCode Live Rank + GFG Live Coding Score (FIXED) -->
 <td align="center" width="33%">
 <a href="https://leetcode.com/u/Snehal_Garg/">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fleetcode-stats-api.vercel.app%2FSnehal_Garg&query=%24.ranking&style=for-the-badge&logo=leetcode&label=LEETCODE%20RANK&color=f59e0b&labelColor=000000&prefix=%23" alt="LeetCode Live Rank"/>
@@ -215,7 +266,6 @@
 </a>
 </td>
 
-<!-- Target -->
 <td align="center" width="33%">
 <img src="https://img.shields.io/badge/Target-AI%20Engineer%202027-ec4899?style=for-the-badge&logoColor=white"/>
 </td>
