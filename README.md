@@ -107,46 +107,76 @@
 
 ### 🚀 Featured Projects
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Real+AI+Systems;Not+Tutorials+%7C+Production+Grade;Multi-Agent+%7C+RAG+%7C+Agentic+AI" alt="Projects Header"/>
+
 </div>
 
+<br>
+
 <div align="center">
-<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/multi-agent-galaxy.svg" width="100%" alt="Multi-Agent AI News Summarizer Pipeline"/>
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/multi-agent-galaxy.svg?v=2" width="100%" alt="Multi-Agent AI News Summarizer Pipeline"/>
 </div>
 
 <br>
 
 <table width="100%" border="0">
 <tr>
-<td width="60%" valign="top">
+<td width="55%" valign="top">
 
-**[📰 Multi-Agent AI News Summarizer](https://github.com/snehalgarg05-cyber/multi_agent_news_summarizer)**
+### 📰 Multi-Agent AI News Summarizer
 
-A production-grade multi-agent system that automates what a news editor does — fetch, categorize, summarize, and brief — using 4 specialized AI agents orchestrated with LangGraph.
+> *Automates what a news editor does — in 4 AI agents, zero human input.*
 
-**What makes it interesting:**
-- 🔍 **Fetcher Agent** — NewsAPI with query expansion + data cleaning
-- 🗂️ **Categorizer Agent** — Batch LLM call, 10 articles in 1 API call (10x cheaper)
-- ✍️ **Summarizer Agent** — Abstractive summarization per category
-- 🎨 **Formatter Agent** — Executive briefing + full markdown digest
-- ⚡ **AgentState TypedDict** — Type-safe shared memory across all agents
-- 🔀 **Conditional Edge** — Auto error routing via LangGraph
+A production-grade **LangGraph multi-agent pipeline** that fetches real news from 50,000+ sources, intelligently categorizes articles by topic, writes abstractive summaries, and delivers a polished executive briefing — all in one click.
+
+**Pipeline:**
+```
+User Query
+   ↓
+Fetcher Agent   →  NewsAPI + query expansion
+   ↓
+Categorizer     →  Batch LLM call (10 articles, 1 API call)
+   ↓
+Summarizer      →  Abstractive summary per category
+   ↓
+Formatter       →  Executive briefing + markdown digest
+   ↓
+Streamlit UI
+```
+
+**Key engineering decisions:**
+- **10x cheaper** — batch categorization, all articles in 1 LLM call
+- **Never crashes** — conditional edges auto-route to error handler
+- **Type-safe** — TypedDict state catches bugs between agents at dev time
+- **Temperature tuned** — 0 for categorization, 0.3 for creative prose
 
 </td>
-<td width="40%" align="center" valign="top">
+<td width="45%" align="center" valign="top">
+
+<br><br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-22d3ee?style=for-the-badge&labelColor=0f0a2e)](https://multi-agent-news-summarizer.onrender.com/)
+
+[![View Code](https://img.shields.io/badge/GitHub-View_Code-a78bfa?style=for-the-badge&logo=github&labelColor=0f0a2e)](https://github.com/snehalgarg05-cyber/multi_agent_news_summarizer)
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-onrender.com-00E5FF?style=for-the-badge&labelColor=020010)](https://multi-agent-news-summarizer.onrender.com/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-8b5cf6?style=for-the-badge&logo=github&labelColor=020010)](https://github.com/snehalgarg05-cyber/multi_agent_news_summarizer)
+| What | How |
+|------|-----|
+| Orchestration | LangGraph StateGraph |
+| LLM | Groq GPT-4o 120B |
+| News | NewsAPI (50k+ sources) |
+| UI | Streamlit |
+| State | TypedDict |
+| Error Handling | Conditional Edges |
 
 <br>
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
-![NewsAPI](https://img.shields.io/badge/NewsAPI-0078D4?style=flat-square&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_GPT4o-F55036?style=flat-square&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Render](https://img.shields.io/badge/Deployed-Render-46E3B7?style=flat-square)
 
 </td>
 </tr>
