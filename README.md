@@ -187,6 +187,80 @@ Streamlit UI
 </p>
 
 <div align="center">
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/ai-code-reviewer-pipeline.svg" width="100%" alt="AI Code Reviewer Pipeline"/>
+</div>
+
+<br>
+
+<table width="100%" border="0">
+<tr>
+<td width="55%" valign="top">
+
+### 🔍 AI Code Reviewer
+
+> *Paste any GitHub URL. Get a senior engineer's review in under 2 minutes.*
+
+A production-grade **LangGraph multi-agent pipeline** that fetches code from any GitHub URL (PR, file, or full repo), analyzes quality, scans for bugs and security vulnerabilities, and delivers a professional code review — all fully automated.
+
+**Pipeline:**
+```
+GitHub URL (PR / File / Repo)
+   ↓
+🔍 Fetcher Agent   →  GitHub API + full repo scan
+   ↓
+🧠 Analyzer        →  Quality score /10 + complexity
+   ↓
+🐛 Bug Detector    →  Bugs, security, edge cases
+   ↓
+✍️ Review Writer   →  Professional verdict + report
+   ↓
+Streamlit UI
+```
+
+**Key engineering decisions:**
+- **Any GitHub URL** — PR diff, single file, or full repo scan
+- **Recursive repo fetch** — Git Trees API pulls all files in one call
+- **Conditional edges** — fetcher failure auto-routes to error handler
+- **Type-safe state** — TypedDict ReviewState across all 4 agents
+- **Temperature tuned** — 0.1 for bug detection, 0.4 for review prose
+
+</td>
+<td width="45%" align="center" valign="top">
+
+<br><br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-00e5ff?style=for-the-badge&labelColor=000d1a)](https://your-streamlit-url.streamlit.app)
+
+[![View Code](https://img.shields.io/badge/GitHub-View_Code-ff007f?style=for-the-badge&logo=github&labelColor=000d1a)](https://github.com/snehalgarg05-cyber/Multi-Agent-AI-Code-Reviewer)
+
+<br>
+
+| What | How |
+|------|-----|
+| Orchestration | LangGraph StateGraph |
+| LLM | Groq (openai/gpt-oss-20b) |
+| Code Fetch | GitHub REST API |
+| UI | Streamlit |
+| State | TypedDict ReviewState |
+| Error Handling | Conditional Edges |
+
+<br>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<div align="center">
 
 ### 📊 Coding Stats
 
