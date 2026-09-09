@@ -113,6 +113,193 @@
 
 <br>
 
+<!-- ============================================================ -->
+<!--           PROJECT 1: CONTENT CREATION STUDIO                 -->
+<!-- ============================================================ -->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/content-creator-galaxy.svg" width="100%" alt="Multi-Agent Content Creation Studio Pipeline"/>
+</div>
+
+<br>
+
+<table width="100%" border="0">
+<tr>
+<td width="55%" valign="top">
+
+### 🎨 Multi-Agent Content Creation Studio
+
+> *One topic in. Five platforms covered. Zero manual writing.*
+
+A production-grade **5-agent LangGraph pipeline** that autonomously generates a complete, platform-ready content package from a single topic input — 800-word SEO blog, YouTube script, LinkedIn post, Twitter thread, and Instagram caption — all in under 3 minutes.
+
+**Pipeline:**
+```
+Single Topic Input
+   ↓
+🔬 Researcher    →  Web research + trend analysis
+   ↓
+🧭 Strategist    →  Content angle + platform strategy
+   ↓
+✍️ Writer        →  800-word SEO blog + YouTube script
+   ↓
+🎯 Adapter       →  Tone-fit per platform
+   ↓
+📈 SEO Agent     →  Keyword optimization + meta tags
+   ↓
+Full Content Package (Streamlit UI)
+```
+
+**Key engineering decisions:**
+- **5 specialized agents** — each does one job only; no overlap (strict SRP)
+- **TypedDict AgentState** — type-safe shared memory; key mismatches caught at dev time, not production
+- **Conditional edge after Researcher** — if web fetch fails, routes to error handler and continues; never crashes
+- **Multi-language support** — English, Hindi, and Hinglish via AgentState language flag
+- **Temperature tuned per agent** — 0.1 for research (factual), 0.5 for writing (creative), 0.3 for SEO (balanced)
+- **Deployed on Streamlit Cloud** — with encrypted secret management for API keys
+
+</td>
+<td width="45%" align="center" valign="top">
+
+<br><br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-ff6ef7?style=for-the-badge&labelColor=0a0020)](https://content-creator-multi-agent-ai-k4fnxwfxbx5ss93mcq9dfn.streamlit.app/)
+
+[![View Code](https://img.shields.io/badge/GitHub-View_Code-00ffcc?style=for-the-badge&logo=github&labelColor=0a0020)](https://github.com/snehalgarg05-cyber/Content-Creator-Multi-Agent-AI)
+
+<br>
+
+| What | How |
+|------|-----|
+| Orchestration | LangGraph StateGraph |
+| LLM | Groq (openai/gpt-oss-20b) |
+| Agents | 5 Specialized Agents |
+| Language Support | EN / HI / Hinglish |
+| State | TypedDict AgentState |
+| UI | Streamlit Cloud |
+
+<br>
+
+**What it generates:**
+
+| Platform | Output |
+|----------|--------|
+| 📝 Blog | 800-word SEO article |
+| 🎥 YouTube | Full video script |
+| 💼 LinkedIn | Professional post |
+| 🐦 Twitter | Thread format |
+| 📸 Instagram | Caption + hashtags |
+
+<br>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<!-- ============================================================ -->
+<!--              PROJECT 2: AI CODE REVIEWER                     -->
+<!-- ============================================================ -->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/ai-code-reviewer-pipeline.svg" width="100%" alt="AI Code Reviewer Pipeline"/>
+</div>
+
+<br>
+
+<table width="100%" border="0">
+<tr>
+<td width="55%" valign="top">
+
+### 🔍 Multi-Agent AI Code Reviewer
+
+> *Paste any GitHub URL. Get a senior engineer's review in under 2 minutes.*
+
+A production-grade **4-agent LangGraph pipeline** that fetches code from any GitHub URL — PR diff, single file, or entire repository — analyzes quality, scans for bugs and security vulnerabilities, and delivers a professional review with a merge verdict, fully automated.
+
+**Pipeline:**
+```
+GitHub URL (PR / File / Repo)
+   ↓
+🔍 Fetcher Agent   →  GitHub REST API + full repo scan
+   ↓
+🧠 Analyzer        →  Quality score /10 + complexity
+   ↓
+🐛 Bug Detector    →  Bugs, security issues, edge cases
+   ↓
+✍️ Review Writer   →  Professional verdict + report
+   ↓
+Streamlit UI
+```
+
+**Key engineering decisions:**
+- **Any GitHub URL** — PR diff, single file blob, or recursive full-repo scan
+- **Git Trees API** — fetches entire file tree in one call using `?recursive=1`; 10x fewer API calls
+- **No third-party GitHub library** — uses Python's built-in `urllib.request`; fewer dependencies
+- **Conditional edge after Fetcher** — rate limits or network failures auto-route to error handler
+- **TypedDict ReviewState** — type-safe shared memory; caught 3 real bugs during development
+- **Temperature tuned** — 0.1 for bug detection, 0.2 for analysis, 0.4 for review writing
+
+</td>
+<td width="45%" align="center" valign="top">
+
+<br><br>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-00e5ff?style=for-the-badge&labelColor=000d1a)](https://multi-agent-ai-code-reviewer-8pvqw7rti6blc77dzr88dr.streamlit.app/)
+
+[![View Code](https://img.shields.io/badge/GitHub-View_Code-ff007f?style=for-the-badge&logo=github&labelColor=000d1a)](https://github.com/snehalgarg05-cyber/Multi-Agent-AI-Code-Reviewer)
+
+<br>
+
+| What | How |
+|------|-----|
+| Orchestration | LangGraph StateGraph |
+| LLM | Groq (openai/gpt-oss-20b) |
+| Code Fetch | GitHub REST API |
+| Repo Scan | Git Trees API |
+| State | TypedDict ReviewState |
+| Error Handling | Conditional Edges |
+
+<br>
+
+**What it reviews:**
+
+| Check | Output |
+|-------|--------|
+| 📊 Quality | Score /10 + complexity |
+| 🐛 Bugs | Logic + null pointer errors |
+| 🔒 Security | SQL injection, XSS, secrets |
+| 📐 Style | Naming, DRY, SOLID |
+| ⚡ Edge Cases | Empty input, concurrency |
+
+<br>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
+</p>
+
+<!-- ============================================================ -->
+<!--           PROJECT 3: MULTI-AGENT NEWS SUMMARIZER             -->
+<!-- ============================================================ -->
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/multi-agent-galaxy.svg?v=2" width="100%" alt="Multi-Agent AI News Summarizer Pipeline"/>
 </div>
@@ -127,7 +314,7 @@
 
 > *Automates what a news editor does — in 4 AI agents, zero human input.*
 
-A production-grade **LangGraph multi-agent pipeline** that fetches real news from 50,000+ sources, intelligently categorizes articles by topic, writes abstractive summaries, and delivers a polished executive briefing — all in one click.
+A production-grade **LangGraph multi-agent pipeline** that fetches real-time news from 50,000+ sources, intelligently categorizes articles by topic using a single batch LLM call, writes abstractive summaries per category, and delivers a polished executive briefing — all in one click.
 
 **Pipeline:**
 ```
@@ -145,10 +332,12 @@ Streamlit UI
 ```
 
 **Key engineering decisions:**
-- **10x cheaper** — batch categorization, all articles in 1 LLM call
-- **Never crashes** — conditional edges auto-route to error handler
-- **Type-safe** — TypedDict state catches bugs between agents at dev time
-- **Temperature tuned** — 0 for categorization, 0.3 for creative prose
+- **10x cheaper** — all 10 articles categorized in 1 LLM call instead of 10 separate calls
+- **Never crashes** — conditional edges auto-route to fallback when NewsAPI fails
+- **Type-safe state** — TypedDict catches key mismatches between agents at dev time
+- **Temperature tuned** — 0 for categorization (deterministic), 0.3 for prose (readable)
+- **Natural language query** — users ask "latest AI news"; query expansion handles API formatting
+- **Deployed on Render** — with environment variable management and auto-redeploy on push
 
 </td>
 <td width="45%" align="center" valign="top">
@@ -165,10 +354,22 @@ Streamlit UI
 |------|-----|
 | Orchestration | LangGraph StateGraph |
 | LLM | Groq GPT-4o 120B |
-| News | NewsAPI (50k+ sources) |
+| News Source | NewsAPI (50k+ sources) |
 | UI | Streamlit |
 | State | TypedDict |
-| Error Handling | Conditional Edges |
+| Deployment | Render |
+
+<br>
+
+**What it delivers:**
+
+| Output | Detail |
+|--------|--------|
+| 📂 Categories | Auto-grouped by topic |
+| 📝 Summaries | Abstractive per category |
+| 📋 Briefing | Executive digest format |
+| 🔍 Sources | Linked article references |
+| ⚡ Speed | Full digest in ~30 seconds |
 
 <br>
 
@@ -177,80 +378,6 @@ Streamlit UI
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Render](https://img.shields.io/badge/Deployed-Render-46E3B7?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
-</p>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/snehalgarg05-cyber/snehalgarg05-cyber/main/ai-code-reviewer-pipeline.svg" width="100%" alt="AI Code Reviewer Pipeline"/>
-</div>
-
-<br>
-
-<table width="100%" border="0">
-<tr>
-<td width="55%" valign="top">
-
-### 🔍 AI Code Reviewer
-
-> *Paste any GitHub URL. Get a senior engineer's review in under 2 minutes.*
-
-A production-grade **LangGraph multi-agent pipeline** that fetches code from any GitHub URL (PR, file, or full repo), analyzes quality, scans for bugs and security vulnerabilities, and delivers a professional code review — all fully automated.
-
-**Pipeline:**
-```
-GitHub URL (PR / File / Repo)
-   ↓
-🔍 Fetcher Agent   →  GitHub API + full repo scan
-   ↓
-🧠 Analyzer        →  Quality score /10 + complexity
-   ↓
-🐛 Bug Detector    →  Bugs, security, edge cases
-   ↓
-✍️ Review Writer   →  Professional verdict + report
-   ↓
-Streamlit UI
-```
-
-**Key engineering decisions:**
-- **Any GitHub URL** — PR diff, single file, or full repo scan
-- **Recursive repo fetch** — Git Trees API pulls all files in one call
-- **Conditional edges** — fetcher failure auto-routes to error handler
-- **Type-safe state** — TypedDict ReviewState across all 4 agents
-- **Temperature tuned** — 0.1 for bug detection, 0.4 for review prose
-
-</td>
-<td width="45%" align="center" valign="top">
-
-<br><br>
-
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-00e5ff?style=for-the-badge&labelColor=000d1a)](https://your-streamlit-url.streamlit.app)
-
-[![View Code](https://img.shields.io/badge/GitHub-View_Code-ff007f?style=for-the-badge&logo=github&labelColor=000d1a)](https://github.com/snehalgarg05-cyber/Multi-Agent-AI-Code-Reviewer)
-
-<br>
-
-| What | How |
-|------|-----|
-| Orchestration | LangGraph StateGraph |
-| LLM | Groq (openai/gpt-oss-20b) |
-| Code Fetch | GitHub REST API |
-| UI | Streamlit |
-| State | TypedDict ReviewState |
-| Error Handling | Conditional Edges |
-
-<br>
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white)
 
 </td>
 </tr>
@@ -379,7 +506,9 @@ Streamlit UI
 
 <br>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=snehalgarg05-cyber&bg_color=020010&color=8b5cf6&line=6366f1&point=a78bfa&area=true&hide_border=true&custom_title=Snehal's%20Contribution%20Galaxy&area_color=4c1d95)
+<a href="https://github.com/snehalgarg05-cyber">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=snehalgarg05-cyber&bg_color=020010&color=8b5cf6&line=6366f1&point=a78bfa&area=true&hide_border=true&custom_title=Snehal%27s%20Contribution%20Galaxy&area_color=4c1d95" width="100%" alt="Activity Graph"/>
+</a>
 
 </div>
 
