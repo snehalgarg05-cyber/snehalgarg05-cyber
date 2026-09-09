@@ -507,7 +507,7 @@ Streamlit UI
 <br>
 
 <a href="https://github.com/snehalgarg05-cyber">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=snehalgarg05-cyber&bg_color=020010&color=8b5cf6&line=6366f1&point=a78bfa&area=true&hide_border=true&custom_title=Snehal%27s%20Contribution%20Galaxy&area_color=4c1d95" width="100%" alt="Activity Graph"/>
+  <img src="https://contribution-galaxy.vercel.app/?username=snehalgarg05-cyber" width="100%"/>
 </a>
 
 </div>
