@@ -1,0 +1,426 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMzk1ODg4Yy01YzE3LTQ3MzYtOGJlMi1jMDExNTc0MjRiMTIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOl6NebUdeeoWI+cwOFWqZ8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpkODg3ZjNlYy0wYTQxLTRhMGYtOWI0Yy01ZWU4ODEyNjcwNGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobA2jf9L6axsUolfBWAlw6QAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg4yKQU5Uqrs6Ak3XMxuStzvuv6D+SwXbJV1QfSqMIu9ykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPt1WcFhdXCVJgVVoNhpxPoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCD12CKRiZBPBjN3NI+ivruMCp6/ciMUSZWnlqndABunYWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBilZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMzOTU4ODhjLTVjMTctNDczNi04YmUyLWMwMTE1NzQyNGIxMi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY4MDI5YTkzLTgzNTctNGM3Mi04ZDczLWZiOGU3NzQ0ODUzNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDjIpBTlSquzoCTdczG5K3O+6/oP5LBdslXVB9Kowi73KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg7uvH5Ny8pKXWYeyi57LFXwfkrbSqPcpUzg5NawonxleiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggKbFnphT5TWDroYfGxJTRukFAlTZAeAoR+X1V2LZ1V6V0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCf2sX2ea61hkrbAjjEyw3Pq34pSX65bLngZppxCfgCCfo35zTSMz1FSCH4eVnN8hVzQnq7j+y+fU1yXAqdfhME=</c2pa:manifest></metadata>
+  <defs>
+    <!-- Deep space bg -->
+    <radialGradient id="space" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#020818"/>
+      <stop offset="50%" stop-color="#010510"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <!-- Planet gradients - each unique -->
+    <radialGradient id="pResearcher" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff6ef7"/>
+      <stop offset="50%" stop-color="#c026d3"/>
+      <stop offset="100%" stop-color="#4a0072"/>
+    </radialGradient>
+    <radialGradient id="pStrategist" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#00ffcc"/>
+      <stop offset="50%" stop-color="#00bfa5"/>
+      <stop offset="100%" stop-color="#004d40"/>
+    </radialGradient>
+    <radialGradient id="pWriter" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffe566"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </radialGradient>
+    <radialGradient id="pAdapter" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </radialGradient>
+    <radialGradient id="pSEO" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff4da6"/>
+      <stop offset="50%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#4c0519"/>
+    </radialGradient>
+
+    <!-- Sun/input glow -->
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ffe566"/>
+      <stop offset="70%" stop-color="#ff6600"/>
+      <stop offset="100%" stop-color="#ff000033"/>
+    </radialGradient>
+
+    <!-- Rocket trail -->
+    <linearGradient id="trail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#ff007f" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Glows -->
+    <filter id="glow1" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow3" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="titleGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="starGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ef7"/>
+      <stop offset="25%" stop-color="#00ffcc"/>
+      <stop offset="50%" stop-color="#ffe566"/>
+      <stop offset="75%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#ff4da6"/>
+    </linearGradient>
+
+    <!-- Output shimmer -->
+    <linearGradient id="outputGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6ef7"/>
+      <stop offset="50%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#ffe566"/>
+    </linearGradient>
+
+    <!-- Orbital path dashes -->
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Nebula blobs -->
+    <filter id="nebula">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="1000" height="480" fill="url(#space)" rx="18"/>
+
+  <!-- Nebula clouds -->
+  <ellipse cx="200" cy="160" rx="180" ry="100" fill="#7c3aed" opacity="0.06" filter="url(#nebula)"/>
+  <ellipse cx="600" cy="300" rx="220" ry="120" fill="#0e7490" opacity="0.07" filter="url(#nebula)"/>
+  <ellipse cx="850" cy="150" rx="160" ry="90" fill="#be185d" opacity="0.07" filter="url(#nebula)"/>
+  <ellipse cx="500" cy="420" rx="300" ry="80" fill="#4f46e5" opacity="0.05" filter="url(#nebula)"/>
+
+  <!-- ===== STARS ===== -->
+  <!-- Bright twinkling stars -->
+  <g filter="url(#starGlow)">
+    <circle cx="55" cy="25" r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="70" r="2" fill="#00ffcc"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="30" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="18" r="1.8" fill="#ff6ef7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="42" r="1.3" fill="#ffe566"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="22" r="1.6" fill="#ffffff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="35" r="2.1" fill="#60a5fa"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="15" r="1.4" fill="#ff4da6"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="45" r="1.7" fill="#ffffff"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="965" cy="80" r="1.2" fill="#00ffcc"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="380" r="1.5" fill="#ff6ef7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="420" r="1.8" fill="#ffffff"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="455" r="1.3" fill="#ffe566"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="465" r="1.6" fill="#00ffcc"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="450" r="1.4" fill="#ff4da6"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="440" r="2" fill="#ffffff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="420" r="1.5" fill="#60a5fa"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="20" cy="200" r="1.8" fill="#ffe566"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="250" r="1.6" fill="#ff6ef7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="250" r="1" fill="#ffffff"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="320" r="1.2" fill="#00ffcc"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- Small dots -->
+  <circle cx="75" cy="110" r="0.8" fill="#ffffff" opacity="0.4"/>
+  <circle cx="190" cy="350" r="0.7" fill="#ffffff" opacity="0.3"/>
+  <circle cx="440" cy="90" r="0.9" fill="#ffffff" opacity="0.5"/>
+  <circle cx="650" cy="380" r="0.8" fill="#ffffff" opacity="0.4"/>
+  <circle cx="760" cy="180" r="0.6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="930" cy="340" r="0.9" fill="#ffffff" opacity="0.4"/>
+
+  <!-- ===== TITLE ===== -->
+  <text x="500" y="42" text-anchor="middle" font-size="22" font-weight="bold"
+        fill="url(#titleGrad)" filter="url(#titleGlow)" letter-spacing="2">
+    🚀 MULTI-AGENT CONTENT CREATION STUDIO
+  </text>
+  <text x="500" y="62" text-anchor="middle" font-size="10" fill="#94a3b8" letter-spacing="4" opacity="0.85">
+    5 AI AGENTS · LANGGRAPH · GROQ · ONE TOPIC → FULL CONTENT PACKAGE
+  </text>
+  <line x1="80" y1="72" x2="920" y2="72" stroke="url(#orbitGrad)" stroke-width="1"/>
+
+  <!-- ===== ORBITAL PATH (curved dotted arc across all planets) ===== -->
+  <!-- Main orbit arc - wavy path through all 5 planets -->
+  <path d="M 108,240 C 160,160 240,310 310,220 C 380,130 440,320 530,230 C 620,140 680,320 760,210 C 820,140 870,270 900,240"
+        fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6,10" opacity="0.18"/>
+
+  <!-- ===== SUN / INPUT ===== -->
+  <!-- Outer glow rings -->
+  <circle cx="62" cy="240" r="38" fill="#ff660033" filter="url(#glow3)">
+    <animate attributeName="r" values="35;42;35" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="62" cy="240" r="26" fill="url(#sunGrad)" filter="url(#glow2)"/>
+  <circle cx="62" cy="240" r="18" fill="#fff9c4"/>
+  <circle cx="56" cy="235" r="5" fill="#ffffff" opacity="0.7"/>
+  <!-- Sun rays -->
+  <g opacity="0.6">
+    <line x1="62" y1="206" x2="62" y2="198" stroke="#ffe566" stroke-width="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/></line>
+    <line x1="62" y1="274" x2="62" y2="282" stroke="#ffe566" stroke-width="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.3s" repeatCount="indefinite"/></line>
+    <line x1="28" y1="240" x2="20" y2="240" stroke="#ffe566" stroke-width="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.6s" repeatCount="indefinite"/></line>
+    <line x1="96" y1="240" x2="104" y2="240" stroke="#ffe566" stroke-width="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.9s" repeatCount="indefinite"/></line>
+    <line x1="38" y1="216" x2="32" y2="210" stroke="#ffe566" stroke-width="1.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" begin="0.2s" repeatCount="indefinite"/></line>
+    <line x1="86" y1="264" x2="92" y2="270" stroke="#ffe566" stroke-width="1.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" begin="0.7s" repeatCount="indefinite"/></line>
+  </g>
+  <text x="62" y="285" text-anchor="middle" font-size="9" fill="#ffe566" font-weight="bold">TOPIC</text>
+  <text x="62" y="296" text-anchor="middle" font-size="8" fill="#f97316" opacity="0.8">INPUT</text>
+
+  <!-- ===== PLANET 1: RESEARCHER (Purple/Magenta) ===== -->
+  <!-- Orbit rings -->
+  <ellipse cx="195" cy="225" rx="50" ry="14" fill="none" stroke="#ff6ef7" stroke-width="0.8" opacity="0.4" transform="rotate(-15 195 225)">
+    <animateTransform attributeName="transform" type="rotate" from="-15 195 225" to="345 195 225" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="195" cy="225" rx="42" ry="10" fill="none" stroke="#c026d3" stroke-width="0.5" opacity="0.3" transform="rotate(20 195 225)">
+    <animateTransform attributeName="transform" type="rotate" from="20 195 225" to="380 195 225" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Planet body -->
+  <circle cx="195" cy="225" r="36" fill="#4a007288" filter="url(#glow1)"/>
+  <circle cx="195" cy="225" r="30" fill="url(#pResearcher)" filter="url(#glow1)">
+    <animate attributeName="r" values="29;31;29" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Planet surface detail -->
+  <ellipse cx="185" cy="215" rx="12" ry="5" fill="#ff6ef7" opacity="0.25" transform="rotate(-30 185 215)"/>
+  <ellipse cx="205" cy="232" rx="8" ry="3" fill="#c026d3" opacity="0.3" transform="rotate(20 205 232)"/>
+  <circle cx="181" cy="219" r="3" fill="#ff6ef7" opacity="0.5"/>
+  <!-- Moon -->
+  <circle cx="228" cy="207" r="5" fill="#e879f9" opacity="0.9">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0,0 A35,10 0 1,1 0.01,0"/>
+  </circle>
+  <!-- Label -->
+  <text x="195" y="220" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">🔬</text>
+  <text x="195" y="232" text-anchor="middle" font-size="8.5" fill="#ff6ef7" font-weight="bold" filter="url(#glow1)">RESEARCHER</text>
+  <text x="195" y="270" text-anchor="middle" font-size="8" fill="#d946ef" opacity="0.85">Web Research</text>
+  <text x="195" y="281" text-anchor="middle" font-size="8" fill="#d946ef" opacity="0.85">+ Trend Analysis</text>
+
+  <!-- ===== PLANET 2: STRATEGIST (Teal/Cyan) ===== -->
+  <ellipse cx="340" cy="210" rx="48" ry="13" fill="none" stroke="#00ffcc" stroke-width="0.8" opacity="0.4" transform="rotate(10 340 210)">
+    <animateTransform attributeName="transform" type="rotate" from="10 340 210" to="370 340 210" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="340" cy="210" r="34" fill="#004d4088" filter="url(#glow1)"/>
+  <circle cx="340" cy="210" r="28" fill="url(#pStrategist)" filter="url(#glow1)">
+    <animate attributeName="r" values="27;30;27" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="330" cy="202" rx="10" ry="4" fill="#00ffcc" opacity="0.2" transform="rotate(-25 330 202)"/>
+  <ellipse cx="350" cy="218" rx="7" ry="3" fill="#00bfa5" opacity="0.25" transform="rotate(15 350 218)"/>
+  <circle cx="326" cy="205" r="2.5" fill="#00ffcc" opacity="0.6"/>
+  <!-- Saturn-like ring -->
+  <ellipse cx="340" cy="210" rx="44" ry="8" fill="none" stroke="#00ffcc" stroke-width="1.5" opacity="0.35" transform="rotate(-5 340 210)"/>
+  <text x="340" y="205" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">🧭</text>
+  <text x="340" y="217" text-anchor="middle" font-size="8.5" fill="#00ffcc" font-weight="bold" filter="url(#glow1)">STRATEGIST</text>
+  <text x="340" y="252" text-anchor="middle" font-size="8" fill="#2dd4bf" opacity="0.85">Content Strategy</text>
+  <text x="340" y="263" text-anchor="middle" font-size="8" fill="#2dd4bf" opacity="0.85">+ Planning</text>
+
+  <!-- ===== PLANET 3: WRITER (Gold/Orange) ===== -->
+  <ellipse cx="500" cy="230" rx="52" ry="15" fill="none" stroke="#ffe566" stroke-width="0.8" opacity="0.4" transform="rotate(-8 500 230)">
+    <animateTransform attributeName="transform" type="rotate" from="-8 500 230" to="352 500 230" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="500" cy="230" rx="45" ry="9" fill="none" stroke="#f59e0b" stroke-width="0.6" opacity="0.25">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 230" to="-360 500 230" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="500" cy="230" r="38" fill="#78350f88" filter="url(#glow1)"/>
+  <circle cx="500" cy="230" r="32" fill="url(#pWriter)" filter="url(#glow1)">
+    <animate attributeName="r" values="31;34;31" dur="4.5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="488" cy="220" rx="14" ry="5" fill="#ffe566" opacity="0.2" transform="rotate(-20 488 220)"/>
+  <ellipse cx="512" cy="238" rx="10" ry="4" fill="#f59e0b" opacity="0.25" transform="rotate(25 512 238)"/>
+  <circle cx="484" cy="222" r="3" fill="#ffe566" opacity="0.55"/>
+  <circle cx="514" cy="238" r="2" fill="#fbbf24" opacity="0.45"/>
+  <!-- Moon -->
+  <circle cx="500" cy="192" r="6" fill="#fcd34d" opacity="0.85">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M0,0 A42,12 0 1,0 0.01,0"/>
+  </circle>
+  <text x="500" y="224" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">✍️</text>
+  <text x="500" y="237" text-anchor="middle" font-size="8.5" fill="#ffe566" font-weight="bold" filter="url(#glow1)">WRITER</text>
+  <text x="500" y="277" text-anchor="middle" font-size="8" fill="#fcd34d" opacity="0.85">Blog + Script</text>
+  <text x="500" y="288" text-anchor="middle" font-size="8" fill="#fcd34d" opacity="0.85">+ Social Posts</text>
+
+  <!-- ===== PLANET 4: ADAPTER (Blue) ===== -->
+  <ellipse cx="660" cy="215" rx="46" ry="12" fill="none" stroke="#60a5fa" stroke-width="0.8" opacity="0.4" transform="rotate(12 660 215)">
+    <animateTransform attributeName="transform" type="rotate" from="12 660 215" to="372 660 215" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="660" cy="215" r="34" fill="#1e1b4b88" filter="url(#glow1)"/>
+  <circle cx="660" cy="215" r="28" fill="url(#pAdapter)" filter="url(#glow1)">
+    <animate attributeName="r" values="27;30;27" dur="3.8s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="648" cy="207" rx="11" ry="4" fill="#60a5fa" opacity="0.2" transform="rotate(-30 648 207)"/>
+  <ellipse cx="672" cy="223" rx="8" ry="3" fill="#2563eb" opacity="0.25" transform="rotate(20 672 223)"/>
+  <circle cx="646" cy="209" r="2.5" fill="#93c5fd" opacity="0.6"/>
+  <!-- Ring system -->
+  <ellipse cx="660" cy="215" rx="43" ry="7" fill="none" stroke="#60a5fa" stroke-width="1.8" opacity="0.4" transform="rotate(-8 660 215)"/>
+  <ellipse cx="660" cy="215" rx="38" ry="5" fill="none" stroke="#818cf8" stroke-width="0.8" opacity="0.25" transform="rotate(-8 660 215)"/>
+  <text x="660" y="209" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">🎯</text>
+  <text x="660" y="221" text-anchor="middle" font-size="8.5" fill="#60a5fa" font-weight="bold" filter="url(#glow1)">ADAPTER</text>
+  <text x="660" y="258" text-anchor="middle" font-size="8" fill="#93c5fd" opacity="0.85">Hindi/English</text>
+  <text x="660" y="269" text-anchor="middle" font-size="8" fill="#93c5fd" opacity="0.85">+ Hinglish Tone</text>
+
+  <!-- ===== PLANET 5: SEO (Pink/Red) ===== -->
+  <ellipse cx="820" cy="230" rx="50" ry="13" fill="none" stroke="#ff4da6" stroke-width="0.8" opacity="0.4" transform="rotate(-12 820 230)">
+    <animateTransform attributeName="transform" type="rotate" from="-12 820 230" to="348 820 230" dur="9.5s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="820" cy="230" r="36" fill="#4c051988" filter="url(#glow1)"/>
+  <circle cx="820" cy="230" r="30" fill="url(#pSEO)" filter="url(#glow1)">
+    <animate attributeName="r" values="29;32;29" dur="4.2s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="808" cy="220" rx="13" ry="5" fill="#ff4da6" opacity="0.2" transform="rotate(-25 808 220)"/>
+  <ellipse cx="832" cy="238" rx="9" ry="3.5" fill="#e11d48" opacity="0.3" transform="rotate(20 832 238)"/>
+  <circle cx="806" cy="222" r="3" fill="#fb7185" opacity="0.55"/>
+  <!-- Two moons -->
+  <circle cx="820" cy="194" r="5" fill="#f43f5e" opacity="0.8">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M0,0 A40,11 0 1,1 0.01,0"/>
+  </circle>
+  <circle cx="855" cy="230" r="3.5" fill="#fb7185" opacity="0.7">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M0,0 A48,13 0 1,0 0.01,0"/>
+  </circle>
+  <text x="820" y="224" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="bold">📈</text>
+  <text x="820" y="236" text-anchor="middle" font-size="8.5" fill="#ff4da6" font-weight="bold" filter="url(#glow1)">SEO AGENT</text>
+  <text x="820" y="275" text-anchor="middle" font-size="8" fill="#fb7185" opacity="0.85">Keywords +</text>
+  <text x="820" y="286" text-anchor="middle" font-size="8" fill="#fb7185" opacity="0.85">Optimization</text>
+
+  <!-- ===== OUTPUT STAR ===== -->
+  <circle cx="948" cy="240" r="28" fill="#0f172a" stroke="url(#outputGrad)" stroke-width="2" filter="url(#glow1)">
+    <animate attributeName="stroke-width" values="1.5;3;1.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="948" y="235" text-anchor="middle" font-size="16">📦</text>
+  <text x="948" y="248" text-anchor="middle" font-size="7.5" fill="#00ffcc" font-weight="bold">OUTPUT</text>
+  <text x="948" y="280" text-anchor="middle" font-size="7.5" fill="#94a3b8" opacity="0.9">Full Content</text>
+  <text x="948" y="291" text-anchor="middle" font-size="7.5" fill="#94a3b8" opacity="0.9">Package</text>
+
+  <!-- ===== ROCKET / ASTRONAUT (animated along orbit path) ===== -->
+  <!-- Rocket trail -->
+  <g>
+    <animateMotion dur="12s" repeatCount="indefinite"
+      path="M 108,240 C 160,160 240,310 310,220 C 380,130 440,320 530,230 C 620,140 680,320 760,210 C 820,140 870,270 900,240">
+      <!-- Trail effect behind rocket -->
+    </animateMotion>
+  </g>
+
+  <!-- Rocket body -->
+  <g>
+    <animateMotion dur="12s" repeatCount="indefinite" rotate="auto"
+      path="M 108,240 C 160,160 240,310 310,220 C 380,130 440,320 530,230 C 620,140 680,320 760,210 C 820,140 870,270 900,240"/>
+    <!-- Rocket shape -->
+    <g transform="translate(-10,-10)">
+      <!-- Flame -->
+      <ellipse cx="0" cy="16" rx="4" ry="7" fill="#ff6600" opacity="0.9">
+        <animate attributeName="ry" values="6;10;5;8;6" dur="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.7;1;0.8" dur="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="14" rx="2.5" ry="4" fill="#ffe566" opacity="0.95">
+        <animate attributeName="ry" values="3;6;3;5;3" dur="0.3s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="5" ry="10" fill="#e2e8f0"/>
+      <!-- Nose -->
+      <polygon points="0,-14 -5,-2 5,-2" fill="#ff4da6"/>
+      <!-- Window -->
+      <circle cx="0" cy="2" r="3" fill="#00e5ff" opacity="0.9"/>
+      <circle cx="0" cy="2" r="1.5" fill="#ffffff" opacity="0.7"/>
+      <!-- Fins -->
+      <polygon points="-5,8 -10,14 -5,12" fill="#818cf8"/>
+      <polygon points="5,8 10,14 5,12" fill="#818cf8"/>
+      <!-- Astronaut helmet peek -->
+      <circle cx="0" cy="1" r="2.5" fill="#00e5ff" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- Second rocket (offset) for continuous feel -->
+  <g opacity="0.4">
+    <animateMotion dur="12s" begin="-6s" repeatCount="indefinite" rotate="auto"
+      path="M 108,240 C 160,160 240,310 310,220 C 380,130 440,320 530,230 C 620,140 680,320 760,210 C 820,140 870,270 900,240"/>
+    <g transform="translate(-8,-8)">
+      <ellipse cx="0" cy="12" rx="3" ry="5" fill="#ff6600"/>
+      <ellipse cx="0" cy="0" rx="4" ry="8" fill="#cbd5e1"/>
+      <polygon points="0,-11 -4,-2 4,-2" fill="#ff4da6"/>
+      <polygon points="-4,6 -8,11 -4,10" fill="#818cf8"/>
+      <polygon points="4,6 8,11 4,10" fill="#818cf8"/>
+    </g>
+  </g>
+
+  <!-- ===== DATA PACKETS (glowing dots flowing between planets) ===== -->
+  <!-- Packet 1: Sun to P1 -->
+  <circle r="3.5" fill="#ff6ef7" filter="url(#glow1)">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M108,240 C140,220 170,230 195,225"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Packet 2: P1 to P2 -->
+  <circle r="3.5" fill="#00ffcc" filter="url(#glow1)">
+    <animateMotion dur="2.5s" begin="0.5s" repeatCount="indefinite" path="M195,225 C240,215 290,215 340,210"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Packet 3: P2 to P3 -->
+  <circle r="3.5" fill="#ffe566" filter="url(#glow1)">
+    <animateMotion dur="2.5s" begin="1s" repeatCount="indefinite" path="M340,210 C390,215 450,225 500,230"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Packet 4: P3 to P4 -->
+  <circle r="3.5" fill="#60a5fa" filter="url(#glow1)">
+    <animateMotion dur="2.5s" begin="1.5s" repeatCount="indefinite" path="M500,230 C550,225 600,220 660,215"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Packet 5: P4 to P5 -->
+  <circle r="3.5" fill="#ff4da6" filter="url(#glow1)">
+    <animateMotion dur="2.5s" begin="2s" repeatCount="indefinite" path="M660,215 C700,220 760,225 820,230"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Packet 6: P5 to Output -->
+  <circle r="3.5" fill="#00ffcc" filter="url(#glow1)">
+    <animateMotion dur="2.5s" begin="2.5s" repeatCount="indefinite" path="M820,230 C860,235 900,240 948,240"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===== OUTPUT CONTENT PILLS ===== -->
+  <g>
+    <rect x="900" y="300" width="88" height="18" rx="9" fill="#1e1b4b" stroke="#ff6ef7" stroke-width="1" opacity="0.9"/>
+    <text x="944" y="313" text-anchor="middle" font-size="8" fill="#ff6ef7">📝 SEO Blog</text>
+  </g>
+  <g>
+    <rect x="900" y="322" width="88" height="18" rx="9" fill="#1e1b4b" stroke="#00ffcc" stroke-width="1" opacity="0.9"/>
+    <text x="944" y="335" text-anchor="middle" font-size="8" fill="#00ffcc">🎥 YT Script</text>
+  </g>
+  <g>
+    <rect x="900" y="344" width="88" height="18" rx="9" fill="#1e1b4b" stroke="#60a5fa" stroke-width="1" opacity="0.9"/>
+    <text x="944" y="357" text-anchor="middle" font-size="8" fill="#60a5fa">💼 LinkedIn</text>
+  </g>
+  <g>
+    <rect x="900" y="366" width="88" height="18" rx="9" fill="#1e1b4b" stroke="#ffe566" stroke-width="1" opacity="0.9"/>
+    <text x="944" y="379" text-anchor="middle" font-size="8" fill="#ffe566">🐦 Twitter</text>
+  </g>
+  <g>
+    <rect x="900" y="388" width="88" height="18" rx="9" fill="#1e1b4b" stroke="#ff4da6" stroke-width="1" opacity="0.9"/>
+    <text x="944" y="401" text-anchor="middle" font-size="8" fill="#ff4da6">📸 Instagram</text>
+  </g>
+
+  <!-- ===== BOTTOM STACK BAR ===== -->
+  <line x1="80" y1="420" x2="920" y2="420" stroke="url(#orbitGrad)" stroke-width="0.8" opacity="0.5"/>
+  <text x="500" y="438" text-anchor="middle" font-size="9.5" fill="#64748b" letter-spacing="4">
+    LANGGRAPH  ·  GROQ LLM  ·  STREAMLIT CLOUD  ·  TYPEDDICT STATE  ·  CONDITIONAL EDGES
+  </text>
+
+  <!-- Corner decorations -->
+  <path d="M0,22 Q0,0 22,0" fill="none" stroke="#ff6ef7" stroke-width="1.5" opacity="0.6"/>
+  <path d="M978,0 Q1000,0 1000,22" fill="none" stroke="#00ffcc" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0,458 Q0,480 22,480" fill="none" stroke="#ffe566" stroke-width="1.5" opacity="0.6"/>
+  <path d="M978,480 Q1000,480 1000,458" fill="none" stroke="#ff4da6" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Shooting star -->
+  <line x1="300" y1="95" x2="360" y2="110" stroke="#ffffff" stroke-width="1.5" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0;0" dur="5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="x1" values="200;300;400" dur="5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="y1" values="80;95;110" dur="5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="240;360;480" dur="5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="88;110;132" dur="5s" begin="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
